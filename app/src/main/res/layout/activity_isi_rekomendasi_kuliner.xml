@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBE00"
+    tools:context=".isi_rekomendasi_laut">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Bandung"
+                />
+
+            <ImageView
+                android:id="@+id/bandung"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bandung" />
+
+            <TextView
+                android:id="@+id/textView_bandung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/bandung"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Yogyakarta" />
+
+            <ImageView
+                android:id="@+id/jogja"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/jogja" />
+
+            <TextView
+                android:id="@+id/textView_jogja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/jogja"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/bandung" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Jakarta"
+                />
+
+            <ImageView
+                android:id="@+id/jakarta"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/jakarta" />
+
+            <TextView
+                android:id="@+id/textView_jakarta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/jakarta"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/jogja" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Surabaya"
+                />
+
+            <ImageView
+                android:id="@+id/surabaya"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/surabaya" />
+
+            <TextView
+                android:id="@+id/textView_surabaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/surabaya"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/jakarta" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Bogor"
+                />
+
+            <ImageView
+                android:id="@+id/bogor"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bogor" />
+
+            <TextView
+                android:id="@+id/textView_bogor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/bogor"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/surabaya" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Medan"
+                />
+
+            <ImageView
+                android:id="@+id/medan"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/medan" />
+
+            <TextView
+                android:id="@+id/textView_medan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/medan"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/surabaya" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

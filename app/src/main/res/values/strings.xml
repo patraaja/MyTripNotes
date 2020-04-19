@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">MyTripNotes</string>
+    <string name="cuaca_lokal">Cuaca Lokal</string>
+    <string name="aktivitas">Aktivitas</string>
+    <string name="tampil_kota">Jakarta</string>
+    <string name="tampil_tanggal">3 Februari - 6 Februari</string>
+    <string name="tampil_keadaan">Hujan</string>
+    <string name="rekomendasi">REKOMENDASI</string>
+    <string name="tipsntrick"><![CDATA[TIPS&TRICK]]></string>
+    <string name="kategori_rekomendasi">KATEGORI REKOMENDASI</string>
+    <string name="teks_rinjani">Pulau Lombok di Nusa Tenggara Barat tidak hanya memiliki keindahan pantai eksotis yang memukau.
+        Di sini juga terdapat sebuah gunung yang sudah tersohor keindahannya,
+        terutama dikalangan para pendaki gunung. Gunung tersebut adalah Gunung Rinjani.
+        Gunung Rinjani disebut-sebut sebagai tempat wisata trekking terbaik di Asia Tenggara.
+        Dengan ketinggian 3.726 meter,gunung terindah di Indonesia ini juga berhasil menjadi gunung
+        ketiga tertinggi di Indonesia. Gunung Rinjani menawarkan beragam pemandangan alam yang menakjubkan,
+        mulai dari padang savana yang ditumbuhi bunga edelweiss, Danau Segara Anak,
+        sampai pemandangan matahari terbit yang cantik dan tiada duanya.
+        Perkiraan waktu yang Anda butuhkan untuk mendaki gunung ini adalah antara 7 sampai 10 jam,
+        oleh karena itu Anda harus menyiapkan kondisi badan yang prima sebelum berangkat.
+    </string>
+
+    <string name="teks_bromo">
+        Gunung Bromo berlokasi di empat wilayah berbeda, yaitu Kabupaten Malang, Pasuruan, Lumajang
+        dan Probolinggo. Letaknya yang strategis membuat gunung terindah di Indonesia ini dapat dengan
+        mudah diakses dari berbagai tempat. Gunung Bromo terkenal dengan pemandangan sunrise yang menakjubkan.
+        Pemandangan sunrise di gunung terindah di Indonesia ini sudah terkenal sampai ke segala penjuru dunia,
+        sehingga Anda akan menemui banyak pelancong asing yang kebanyakan berasal dari China, Thailand, dan Eropa.
+        Selain menikmati pemandangan matahari terbit, kegiatan lain yang dapat Anda lakukan adalah mendaki gunung
+        untuk melihat kawah Bromo yang memiliki diameter sekitar 800 meter dari utara ke selatan dan 600 meter
+        dari barat ke timur. Anda ingin mendapatkan hasil foto yang bagus? Pergilah ke Bukit Teletubbies dan
+        padang savana. Jangan lupa juga untuk menjelajah lautan pasir yang merupakan lokasi syuting film Pasir Berbisik.
+  </string>
+    <string name="teks_semeru">
+    Gunung tertinggi di Pulau Jawa ini berlokasi di antara dua kabupaten, yaitu Kabupaten Malang dan
+    Kabupaten Lumajang. Dengan ketinggian 3.676 meter, Gunung Semeru sudah terkenal keindahannya sejak
+    dulu, terutama di kalangan para pecinta wisata alam. Gunung terindah di Indonesia ini juga
+    berhasil menjadi salah satu gunung yang paling ramai, terutama setelah film layar lebar 5cm yang
+    menambah popularitas gunung ini. Gunung Semeru memiliki sebuah danau yang juga merupakan salah
+    satu danau terindah di Indonesia, danau tersebut adalah Ranu Kumbolo. Ranu Kumbolo merupakan
+    tempat peristirahatan dan markas para pendaki yang akan melanjutkan perjalanan hingga puncak
+    Semeru. Di hadapan Ranu Kumbolo terdapat sebuah jalan menanjak yang dikenal sebagai Tanjakan Cinta.
+    Menurut kepercayaan masyarakat setempat, pendaki yang bisa melalui tanjakan ini tanpa menoleh ke
+    belakang walau hanya satu kali, kisah cintanya akan abadi. Di balik bukit cinta, Anda akan
+    disuguhi pemandangan padang savana Oro-oro Ombo yang penuh dengan bunga lavender, lengkap dengan
+    lereng yang ditumbuhi pohon pinus seperti pemandangan khas pegunungan di Eropa.
+    </string>
+    <string name="teks_ijen">
+    Gunung Ijen berlokasi di antara perbatasan Banyuwangi dan Bondowoso. Letaknya berdampingan dengan
+    Gunung Merapi.Ketinggian Gunung Ijen adalah 2.443 meter, masih lebih rendah bila dibandingkan
+    dengan Gunung Bromo atau Semeru sehingga trekking menuju puncak Ijen juga lebih mudah.
+    Gunung Ijen terkenal dengan keindahan kawahnya yang tiada duanya. Kawah Ijen merupakan danau air
+        asam terbesar di dunia. Rasa letih Anda akibat mendaki akan terbayar dengan
+        birunya Kawah Ijen yang indah. Terlebih lagi bila Anda memutuskan untuk berkemah di sini,
+        pada pukul 02.00 hingga 04.00 dini hari Anda dapat menyaksikan fenomena blue fire yang tidak
+        akan Anda temukan di gunung lain, bahkan di negara lain, karena konon katanya blue fire di
+        Gunung Ijen adalah satu-satunya di dunia.
+    </string>
+    <string name="teks_kelimutu">Gunung Kelimutu merupakan gunung aktif yang terletak di Pulau Flores, Provinsi NTT, tepatnya di Desa Pemo, Kecamatan Kelimutu, Kabupaten Ende. Nama Kelimutu bersal dari kata “keli” yang artinya gunung dan “mutu” yang artinya mendidih. Masyarakat sekitar percaya bahwa gunung terindah di Indonesia ini adalah gunung suci yang selalu memberikan kesuburan pada tanah di sekitarnya. Karena memiliki tanah yang subur, Gunung Kelimutu dikelilingi hutan dengan flora khas pegunungan seperti pinus, casuarinas, dan kayu merah. Di puncak gunung terindah di Indonesia ini terdapat tiga buah danau yang terkenal dengan nama Danau Tiga Warna. Sesuai dengan namanya, air di ketiga danau tersebut memiliki warna yang berbeda. Nama ketiga danau tersebut adalah Tiwu Nuwa Muri Koo Fai dengan warna air biru, Tiwu Ata Polo dengan warna air merah, dan Tiwu Ata Mbupu dengan air berwarna putih.
+    </string>
+    <string name="teks_puncak">Meskipun terletak di wilayah dengan iklim tropis, Puncak Jaya merupakan pegunungan yang diselimuti oleh salju. Puncak Jaya memiliki ketinggian mencapai 4.884 meter yang membuatnya menjadi gunung tertinggi di Indonesia. Meskipun selama ini Puncak Jaya merupakan satu-satunya gunung di Indonesia yang tertutup salju, salju abadi yang menyelimuti Puncak Jaya diperkirakan bisa menipis atau bahkan mengering. Hal ini sesuai dengan kesimpulan para peneliti, yaitu bahwa endapan es yang ada di Puncak Jaya dari tahun ke tahun semakin menipis akibat dari pemanasan global. Carztens Pyramide adalah nama lain dari Puncak Jaya yang diambil dari nama seorang petualang dari Belanda yaitu Jan Carstenz. Dia adalah orang pertama yang melihat gunung bersalju di daerah tropis.
+    </string>
+    <string name="teks_gede">
+        Jika Jawa Timur memiliki Gunung Bromo dan Semeru sebagai gunung terlaris di kalangan wisatawan maupun pendaki, Jawa Barat memiliki Gunung Gede. Gunung Gede berada dalam kawasan Taman Nasional Gede Pangrango, tepatnya di antara Kabupaten Bogor, Cianjur, dan Sukabumi, Jawa Barat. Gunung Gede memiliki banyak tempat-tempat menarik yang dapat Anda kunjungi. Tempat-tempat menarik tersebut antara lain: Telaga Biru, Air Terjun Cibeureum, Kandang Batu dan Kandang Bada, Alun-alun Suryakencana, dan Puncak Gunung Gede. Salah satu tempat yang paling indah dan menjadi tempat wisata favorit para pendaki di Gunung Gede adalah Alun-alun Suryakencana. Alun-alun Suryakencana merupakan padang savana seluas 50 hektar pada ketinggian 2.750 meter yang ditumbuhi oleh bunga Edelweiss. Meskipun di sini terdapat banyak bunga Edelweiss, Anda dilarang memetik karena bunga indah ini adalah bunga yang dilindungi.
+    </string>
+    <string name="teks_tambora">
+       Letusan Gunung Tambora yang terjadi pada tahun 1815 telah menghilangkan puncak gunung terindah di Indonesia tersebut. Karena letusan hebat tersebut, terbentuklah kaldera yang paling besar dan paling indah di Indonesia. Dengan dilengkapi sebuah danau di tengah kaldera yang dipenuhi banyak bunga Edelweiss, tak diragukan lagi bahwa Gunung Tambora adalah salah satu gunung terindah di Indonesia.
+    </string>
+    <string name="teks_prau">
+     Gunung Prau adalah salah satu gunung terindah di Indonesia yang telah menjadi tujuan favorit para pendaki gunung di Jawa Tengah dan sekitarnya. Puncak Gunung Prau merupakan spot terbaik se-Asia Tenggara untuk menikmati keindahan matahari terbit. Gunung Prau masuk dalam Kawasan Dataran Tinggi Dieng dan berada pada ketinggian 2.565 meter. Puncaknya yang relatif pendek dengan jalur pendakian yang relatif mudah bila dibanding dengan gunung lainnya membuat gunung ini menjadi gunung yang cocok untuk pendaki pemula.
+    </string>
+    <string name="teks_kerinci">
+    Gunung Kerinci adalah gunung tertinggi di Sumatera dan merupakan gunung berapi yang paling tinggi di Indonesia. Gunung Kerinci berlokasi di Provinsi Jambi yang berbatasan dengan Sumatera Barat dan masuk dalam wilayah Taman Nasional Kerinci Seblat. Berada dalam wilayah Taman Nasional, gunung terindah di Indonesia ini juga merupakan habitat harimau dan badak Sumatera yang dilindungi oleh pemerintah. Di puncak Gunung Kerinci pada ketinggian 3.805 meter, Anda dapat menikmati pemandangan keseluruhan Kota Jambi, Padang, dan Bengkulu, lengkap dengan birunya Samudera Hindia. Serupa dengan Gunung Ijen, gunung ini juga memiliki kawah luas dengan air berwarna hijau kebiruan yang sangat indah.
+    </string>
+    <string name="teks_rajaampat">
+    Tak hanya berhasil membius mata pengunjung lokal, Raja Ampat juga menjadi daya pikat tersendiri bagi turis luar negeri yang ingin menghabiskan masa berliburnya dengan esensi liburan yang tak terlupakan. Mempunyai 1500 pulau kecil, dengan 1200 jenis ikan, biota yang hidup di dalam laut raja ampat disebut-sebut sebagai yang terbesar di dunia. Bahkan, jika wisatawan datang di waktu yang tepat, hiu paus akan muncul dan menjadi tantangan tersendiri saat anda bersnorkeling disana.
+    </string>
+    <string name="teks_wakatobi">
+    Wakatobi merupakan Taman Nasional terkenal di dunia menurut Ekspedisi Wallacea dari Inggris pada tahun 1995. Taman Nasional ini terletak di sebuah Kabupaten Wakatobi, Provinsi Sulawesi Tenggara.
+    Taman Nasional Wakatobi memiliki 750 dari total 850 spesies koral yang ada di dunia. Konfigurasi kedalamannya bervariasi mulai dari datar sampai melandai ke laut dan di beberapa daerah perairan terdapat yang bertebing  curam. Bagian terdalam perairannya mencapai 1.044 meter.
+    Di samping keindahan aneka ragam terumbu karang, tersaji indah 93 jenis ikan konsumsi perdagangan dan ikan hias.
+    </string>
+    <string name="teks_bonerate">
+    Taman Nasional Takabonerate terletak di daerah Kabupaten Selayar, Provinsi Sulawesi Selatan. Ditetapkannya Taman Nasional ini pada tahun 2001.
+
+    Sejak Tahun 2005 Taman Nasional Taka Bonerate telah dicalonkan ke UNESCO untuk menjadi Situs Warisan Dunia.
+
+    Taman nasional ini memiliki atol, suatu pulau koral yang mengelilingi sebuah laguna sebagian atau seluruhnya, terbesar ketiga di dunia setelah Kwajifein di Marshal dan Suvadiva di Moldiva.
+
+    Luas atol mencapai 220.000 hektar dengan terumbu karang yang tersebar luas mencapai 500 km2.
+
+    Terdapat sekitar 295 jenis ikan karang dan berbagai jenis ikan konsumsi. 244 jenis moluska, aneka jenis penyu, dan terumbu karang yang sudah teridentifikasi sebanyak 261 jenis dari 17 famili.
+
+    Sebagian besar jenis-jenis karang tersebut telah membentuk terumbu karang atol (barrier reef) dan terumbu tepi (fringing reef). Semuanya merupakan terumbu karang yang indah dan relatif masih utuh.
+    </string>
+
+    <string name="karimun">
+        Taman Wisata Laut Karimunjawa yang berada di Kecamatan Karimunjawa, Kabupaten Jepara, Provinsi Jawa Tengah ini ditetapkan sebagai Taman Nasional pada tahun 2001. 
+Di kawasan taman wisata terdapat lima pulau, yaitu Karimunjawa, Kemujan, Parang, Nyamuk dan Genting. Dengan penduduk sebagian besar adalah nelayan.
+Taman Wisata Laut Karimunjawa memiliki 242 jenis ikan hias dan 133 genera fauna akuatik. Secara garis besar fauna yang ada di Kepulauan Karimunjawa terdiri atas 2 kelompok, yaitu kelompok daratan dan kelompok perairan. 
+Kelompok perairan meliputi terumbu karang, spons, karang lunak, akar bahar, kerang merah, penyu, dan ikan hias. Sebagian besar pantai di Karimunjawa berpasir putih. 
+Kegiatan menyelam cocok dilakukan di Tanjung Gelam yang terletak di Karimunjawa, Pulau Menjangan Kecil, dan Pulau Cemara Kecil. Sementara itu, kegiatan berenang di pantai dan berjemur cocok dilakukan di Pulau Menjangan Besar dan Pulau Cemara Kecil.
+    </string>
+    <string name="wakatobi">
+        Wakatobi merupakan Taman Nasional terkenal di dunia menurut Ekspedisi Wallacea dari Inggris pada tahun 1995. Taman Nasional ini terletak di sebuah Kabupaten Wakatobi, Provinsi Sulawesi Tenggara.
+Taman Nasional Wakatobi memiliki 750 dari total 850 spesies koral yang ada di dunia. Konfigurasi kedalamannya bervariasi mulai dari datar sampai melandai ke laut dan di beberapa daerah perairan terdapat yang bertebing  curam. Bagian terdalam perairannya mencapai 1.044 meter.
+Di samping keindahan aneka ragam terumbu karang, tersaji indah 93 jenis ikan konsumsi perdagangan dan ikan hias.
+    </string>
+    <string name="bonerate">
+        Taman Nasional Takabonerate terletak di daerah Kabupaten Selayar, Provinsi Sulawesi Selatan. Ditetapkannya Taman Nasional ini pada tahun 2001.
+Sejak Tahun 2005 Taman Nasional Taka Bonerate telah dicalonkan ke UNESCO untuk menjadi Situs Warisan Dunia.
+Taman nasional ini memiliki atol, suatu pulau koral yang mengelilingi sebuah laguna sebagian atau seluruhnya, terbesar ketiga di dunia setelah Kwajifein di Marshal dan Suvadiva di Moldiva.
+Luas atol mencapai 220.000 hektar dengan terumbu karang yang tersebar luas mencapai 500 km2.
+Terdapat sekitar 295 jenis ikan karang dan berbagai jenis ikan konsumsi. 244 jenis moluska, aneka jenis penyu, dan terumbu karang yang sudah teridentifikasi sebanyak 261 jenis dari 17 famili.
+Sebagian besar jenis-jenis karang tersebut telah membentuk terumbu karang atol (barrier reef) dan terumbu tepi (fringing reef). Semuanya merupakan terumbu karang yang indah dan relatif masih utuh.
+    </string>
+    <string name="pantar">
+        Keindahan pemandangan Selat Pantar tidak kalah menarik dibandingkan dengan taman laut seperti Bunaken, Raja Ampat, dan lainnya. 
+Wisata bawah laut ini sering dikunjungin para diver profesional karena terdapat tanaman atau terumbu karang yang menurut mereka langka.
+Selat Alor terletak di Kabupaten Alor, Provinsi Nusa Tenggara Timur. Selat Alor memiliki kekayaan alam yang sangat mempesona dan indah, bahkan sampai dibandingkan dengan taman laut Karibia.
+Para diver bisa berinteraksi dengan ikan hiu yang amat bersahabat. Salah satu spot terindah ada di Half Moonbay, Peter’s Prize, Crocodile Rook, dan Shark Close yang menjadi favorit.
+    </string>
+
+    <string name="menjangan">
+        Pulau Menjangan salah satu taman wisata yang terdapat di Kawasan Taman Nasional Bali Barat menawarkan tempat snorkeling dan diving terbaik di Bali.
+Terdapat banyak jenis terumbu karang yang mengelilingi Pulau Menjangan. Termasuk jenis-jenis spesies yang hidup berdampingan dengan terumbu karang yang sangat mempesona.
+Menjangan memiliki wall diving terbaik dengan visibility yang baik dan penuh warna sekaligus kaya akan biota laut. Pulau Menjangan dikelilingi terumbu karang dan formasi batuan yang kompleks.
+Formasi batuan tersebut membentuk sejumlah gua-gua besar dan kecil yang menjadi habitat bagi terumbu karang, karang lunak, Kerapu, dan Belut Moray.
+Di gua-gua kecil juga terdapat Kakap dan Batfish yang terlihat hilir mudik. Dasar lautnya juga kaya akan Barrel Sponge dan Sea Fan yang berukuran sangat besar.
+Kedalaman laut dan aliran arus yang tenang menjadikan Menjangan tempat hidup ikan Tuna, gerombolan Jackfish, Angelfish, dan beragam jenis penyu, hingga hiu karang.
+    </string>
+
+    <string name="lawang">
+        Lawang Sewu adalah sebuah bangunan yang ada di Semarang sekaligus menjadi salah satu ikon dari kota ini. Bangunan ini sudah berusia lebih dari seratus tahun karena dibangun pada tahun 1904 dan selesai di tahun 1907.
+Lokasinya berada di Jalan Pemuda, Semarang, tepat menghadap ke Tugu Muda. Dulu bangunan ini berfungsi sebagai Kantor Pusat Administrasi Nederlands-Indische Spoorweg Maatschappij atau NIS. Sekarang, Lawang Sewu jadi tempat wisata yang cukup ramai di Kota Semarang.
+    </string>
+    <string name="gadang">
+        Sebagai ikon kota Bukittinggi yang ada di Sumatera Barat, Jam Gadang merupakan sebuah menara jam yang sudah dibangun pada tahun 1926. Bagian dasarnya memiliki luas 13 x 4 meter sedangkan tingginya 26 meter yang terdiri dari beberapa tingkat.
+Tau nggak, sobat tiket, kalau menara ini dibangun tanpa menggunakan besi penyangga dan semen. Jam Gadang dibangun dengan menggunakan bahan tradisional seperti kapur, putih telur, dan pasir putih.
+    </string>
+    <string name="tamansari">
+        Dibangun pada masa Sultan Hamengku Buwono I di abad ke-17, total pengerjaan Taman Sari memakan waktu 9 tahun, mulai dari 1758 hingga 1765. Luasnya mencapai 10 hektar dengan banyak bangunan seperti kolam pemandian, jembatan gantung, dan kanal air yang semuanya keren banget untuk kamu jadikan sebagai latar belakang berfoto.
+Menurut sejarah, Taman Sari ini dibangun oleh arsitek asal Portugis yang memiliki julukan Demang Tegis. Meskipun pernah terkena gempuran serangan dari Inggris di tahun 1812 dan juga bencana gempa bumi di 1876, Taman Sari masih tetap berdiri dengan eloknya hingga kini.
+    </string>
+    <string name="kotatua">
+        Terletak di Jakarta, mempunyai beberapa tempat untuk didatangi seperti museum Fatahillah, pelabuhan Sunda Kelapa, Museum Bank Indonesia, museum seni rupa dan keramik, toko merah, serta banyaknya jajanan disana. Banyak sejarah yang ada dididalamnya seperti pada museum fatahillah yang menjaga segala peningalan jaman dulu, serta Pelabuhan Sunda Kelapa yang menghubungkan Indonesia dengan pihak luar atau luar negara.
+    </string>
+    <string name="borobudur">
+        Candi Borobudur merupakan candi dari umat Buddha yang berada di lokasi istimewa. Mengapa demikian? Karena letaknya diapit oleh dua pasang gunung yakni Gunung Merapi dan Merbabu, serta Gunung Sumbing dan Sindoro.
+Uniknya, pengerjaan Candi Borobudur ini di kala itu tidak menggunakan bahan perekat sama sekali. Material yang digunakan adalah balok vulkanik, dan hebatnya Candi Borobudur masih berdiri kokoh hingga sekarang.
+    </string>
+
+    <string name="bandung">
+        Dari kota Metropolitan Jakarta, lokasi Bandung cukup dekat. Anda yang ingin rehat sejenak dari rutinitas ibu kota, sembari berwisata kuliner, Anda bisa agendakan waktu khusus untuk berwisata di Bandung. Alokasikan akhir pekan Anda untuk mencicipi kuliner Bandung yang beragam. Diantaranya adalah bakso tahu goreng atau yansg biasa disingkat Batagor. Makanan kuliner ini sangat terkenal dan telah banyak pedagang batagor asal Bandung yang membuka usahanya itu di berbagai daerah lain di Indonesia. Sudah pasti dong laris manis. Kue tradisional surabi banyak di jual disini. Surabi aneka rasa yang cocok sekali disantap saat hangat, apalagi di kawasan Bandung dengan iklim pegunungan yang sejuk menggigil.  Bajigur, Bandrek, Es Cendol adalah menu lain yang wajib Anda coba!
+    </string>
+    <string name="jogja">
+        Yogyakarta kotanya pendidikan. Kota ini menjadi tujuan para pelajar yang ingin menimba ilmu dan menikmati betapa kayanya budaya asli Indonesia. Semakin lengkap rasanya karena ragam kuliner yang ada di kota ini. Salah satunya adalah angkringan dengan menu andalan sego kucing dan es teh manisnya. Sego kucing di bungkus dengan pincukan ukuran kecil, dengan lauk yang terdiri dari tahu, tempe, ayam, jeroan, telur, dan sebagainya sesuai selera. Rasanya mantap dan harganya  merakyat, sangat ekonomis. Nasi gudeg adalah menu lain yang tidak bisa Anda lewatkan disini. Sayur nangka muda dengan tambahan lauk seperti tahu, tempe, ayam, telur, semakin membuat kita kangen kota Yogyakarta.
+    </string>
+    <string name="jakarta">
+        Bicara kota metropolitan Jakarta, selain dipenuhi dengan lalu lalang penduduk setiap harinya, Jakarta adalah tujuan yang tepat untuk menyantap kuliner dari berbagai daerah. Ya, di sini apa saja ada. Mulai dari menu tradisional seperti kerak telor hingga menu modern nan western yang bisa Anda temukan dengan mudah di berbagai restoran yang berjejer di sepanjang jalan. Namanya juga Jakarta, apa saja ada!
+    </string>
+    <string name="surabaya">
+        Siang hari, kota ini disibukkan dengan lalu lalang penduduk dengan cuaca siang hari yang terik. Walau begitu, saat malam hari tiba, Anda bisa merasakan gairah kuliner kota Surabaya yang menyajikan makanan khas Surabaya yang unik dan khas serta tidak ada di daerah lain. Diantaranya adalah rawon yang identik dengan warnanya yang sedikit kehitaman, dengan daging sapi atau kambing sebagai isinya. Lontong balap, sate Klopo, dan yang selalu dirindukan adalah rujak cingur.
+    </string>
+    <string name="bogor">
+        Bogor identik dengan curah hujannya yang tinggi. Pemandangannya indah dan bikin betah saat berwisata. Di sini, Anda bisa menikmati beragam camilan lezat baik itu cemilan kering maupun basah yang hanya ada di sini. Diantaranya adalah asinan, toge goreng, lapis talas, laksa Bogor dan masih banyak lagi. Selepas shopping kerajinan kulit, Anda bisa nikmati kuliner di atas di tengah rincik hujan kota Bogor.
+    </string>
+    <string name="medan">
+        Para selebritis tanah air cukup banyak yang membuka usaha kulinernya di kota Medan. Ya, penikmat kuliner di kota ini tidak hanya berasal dari  dalam negeri tetapi juga luar negeri. Ada cukup banyak kuliner serba nikmat yang fenomenal hingga ke mancanegara, diantaranya adalah bika ambon yang merupakan oleh-oleh khas Medan, bakmi Medan, Soto Kesawen dan sirup markisa yang segar rasanya.
+    </string>
+    <string name="belanjabatam">
+    Batam terkenal sebagai surga produk-produk murah. Sebagai salah satu jalur perdagangan ramai di Indonesia, terdapat berbagai merk barang, baik dari dalam maupun luar negeri. Salah satu pasar yang terkenal sebagai wisata belanja murah di Batam adalah Pasar Aviari.
+    Sebagian besar barang yang dijual di pasar ini bukanlah barang-barang baru. Bagi para penikmat thrift, kamu bisa menambahkan Pasar Aviari sebagai destinasi wisata yang wajib dikunjungi. Dan bagi para pemburu barang elektronik, kamu bisa memilih banyak produk-produk elektronik yang didatangkan dari Malaysia dan Singapura.
+    Meski menjajakan barang second, masyarakat sekitar dan wisatawan kerap memenuhi Pasar Aviari untuk memeroleh barang berkualitas dengan harga miring.
+    Lokasi: Buliang, Batu Aji, Kota Batam, Kepulauan Riau
+    </string>
+    <string name="belanjajogja">
+    Yogyakarta tidak hanya terkenal dengan wisata budaya dan keramahan penduduknya saja, tapi juga merupakan surga berbelanja. Siapa yang tidak tahu Jalan Malioboro? Berlibur ke Yogyakarta belum afdol jika tidak mengunjungi Malioboro yang ikonik.
+    Di sini, berjajar banyak pedagang yang menjajakan berbagai barang termasuk cinderamata untuk oleh-oleh. Kamu dapat membeli barang yang digelar di sepanjang Jalan Malioboro atau di toko-toko. Ada gantungan kunci yang berharga Rp 5000,00 atau kurang. Bahkan kamu dapat membeli celana pendek seharga Rp 15.000!
+
+    Jangan ragu untuk menawar, apalagi jika kamu memborong belanjaan. Pedagang akan melayani dengan ramah.
+    Lokasi: Jalan Malioboro
+    </string>
+    <string name="belanjajakarta">
+    ITC Mangga Dua merupakan sebuah pusat perbelanjaan yang menjadi salah satu dari 12 Destinasi Wisata Pesisir yang dipromosikan oleh Dinas Pariwisata dan Kebudayaan Jakarta Utara untuk menarik wisatawan dalam dan luar negeri.
+    Di sini, wisatawan dapat berburu produk elektronik, baju, sepatu, tas, dan lain-lain dari mancanegara dan dalam negeri. Kamu bisa memilih apakah ingin berbelanja barang-barang branded atau barang KW
+    Di sini, harga yang dipatok biasanya lebih murah daripada toko pada umumnya. Tawar menawar harga merupakan sesuatu yang biasa. Jadi kamu dapat berbelanja menyesuaikan isi kantong.
+    Lokasi: Jalan Mangga Dua Raya No. 43, Ancol, Kecamatan Pademangan, Kota Jakarta Utara
+    </string>
+    <string name="belanjabali">
+    Umumnya, jika kamu menggunakan jasa agen travel, kamu akan mengunjungi Pasar Sukawati, salah satu pasar paling terkenal di Bali. Jika kamu ingin memeroleh pengalaman wisata belanja baru yang tidak terlalu ramai, kamu dapat mencoba mengunjungi Pasar Guwang untuk berbelanja oleh-oleh.
+    Matamu akan dimanjakan oleh berbagai kerajinan seni seperti gelang, topi, kain pantai, lukisan, patung khas Bali, dan lain-lain. Nilai plus tempat wisata belanja ini juga terletak pada penataannya yang rapi dan teduh, sehingga kamu akan merasa nyaman dan tidak terlalu kepanasan.
+    Ada tips menarik jika kamu berniat berbelanja di sini dan pasar lain di Pulau Bali pada umumnya. Karena jika kamu datang lebih awal saat toko baru dibuka, biasanya pedagang akan menjual barang yang ditawar dengan harga murah. Masyarakat Bali percaya seseorang yang membeli paling pertama merupakan simbol penglaris dagangan mereka.
+    Lokasi: Jalan Raya Guwang, Kecamatan Sukawati, Kabupaten Gianyar, Bali.
+    </string>
+    <string name="belanjabandung">
+    Ketika mengunjungi Pasar antik Cikapundung, kamu akan dibawa kembali ke masa lalu. Pasar ini dijejali oleh kios-kios yang menawarkan barang antik murah dan berkualitas. Bagi kamu kolektor barang-barang vintage atau sekadar menyalurkan hobi fotografi dan berburu foto instagram yang unik, Pasar antik Cikapundung merupakan tempat wisata yang tepat.
+    Harga di pasar ini rata-rata lebih murah dibandingkan Jakarta dan Solo karena terdapat beberapa barang antik yang dijual mulai Rp 25.000,00 saja. Jangan ragu untuk bertanya karena pedagang akan senang hati menjelaskan barang-barang yang dijual dengan semangat karena rata-rata penjual memang hobi mengoleksi barang-barang klasik. Selain itu, kamu juga bisa mencoba menawar barang yang kamu inginkan.
+    Lokasi: Ps. Cikapundung Elektrik Center, Jalan ABC Blok U-1, Braga, Sumurbandung, Bandung
+    </string>
+
+    <string-array name="kota">
+        <item>Nirvana</item>
+        <item>Incubus</item>
+        <item>Oasis</item>
+        <item>Slipknot</item>
+    </string-array>
+
+    <string name="tujuan_anda">tujuan_anda</string>
+    <string name="tanggal_pergi">tanggal_pergi</string>
+    <string name="tulis_tempat_yang_akan_dikunjungi">tulis_tempat_yang_akan_dikunjungi</string>
+    <string name="liburan">liburan</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="type_perjalanan">type_perjalanan</string>
+    <string name="tanggal_kembali">tanggal_kembali</string>
+    <string name="tanggal_keberangkatan">tanggal_keberangkatan</string>
+    <string name="tujuan_pergi_anda">tujuan_pergi_anda</string>
+    <string name="custom_aktivitas">Custom Aktivitas</string>
+    <string name="submit">Submit</string>
+    <string name="nama_aktivitas">Nama Aktivitas</string>
+    <string-array name="bulan">
+        <item>Januari</item>
+        <item>Febuari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <string name="skip_halaman_ini">Skip halaman ini</string>
+    <string name="daftar">Daftar</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="registrasi">registrasi</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "170613551115",
+    "firebase_url": "https://mytripnotes.firebaseio.com",
+    "project_id": "mytripnotes",
+    "storage_bucket": "mytripnotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170613551115:android:d55d12d35a5d2b73a7970e",
+        "android_client_info": {
+          "package_name": "android.example.mytripnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170613551115-80j76p897kmt8t7ritis1d0eapeg1bqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.mytripnotes",
+            "certificate_hash": "5d0ed6135c9417966dbc067d03de3f4796641d43"
+          }
+        },
+        {
+          "client_id": "170613551115-o4tfk4accassoefrp4ieinv357u5fhup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc3Cy1jz1Xb8q1oNn-Ka9XEYrnHOZiK5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170613551115-o4tfk4accassoefrp4ieinv357u5fhup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

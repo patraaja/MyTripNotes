@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBE00"
+    tools:context=".isi_rekomendasi_pegunungan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. GUNUNG RINJANI , NTB"
+                />
+
+            <ImageView
+                android:id="@+id/rinjani"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/rinjani" />
+
+            <TextView
+                android:id="@+id/textView_rinjani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/teks_rinjani"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/rinjani" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. GUNUNG BROMO , JAWA TIMUR"
+                />
+
+            <ImageView
+                android:id="@+id/bromo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bromo" />
+
+            <TextView
+                android:id="@+id/textView_bromo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/teks_bromo"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/rinjani" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Gunung Semeru, Jawa Timur"
+                />
+
+            <ImageView
+                android:id="@+id/semeru"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/semeru" />
+
+            <TextView
+                android:id="@+id/textView_semeru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/teks_semeru"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/bromo" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Gunung Ijen, Jawa Timur"
+                />
+
+            <ImageView
+                android:id="@+id/ijen"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ijen" />
+
+            <TextView
+                android:id="@+id/textView_ijen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/teks_ijen"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/semeru" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Gunung Kelimutu, NTT"
+                />
+
+            <ImageView
+                android:id="@+id/kelimutu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kelimutu" />
+
+            <TextView
+                android:id="@+id/textView_kelimutu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/teks_kelimutu"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/ijen" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
