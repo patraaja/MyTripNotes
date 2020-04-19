@@ -40,7 +40,7 @@ public class ActivityLogin extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                Intent in =  new Intent(ActivityLogin.this, Destinasi.class);
+                                Intent in =  new Intent(ActivityLogin.this, MainActivity.class);
                                 startActivity(in);
                             } else {
                                 // If sign in fails, display a message to the user.
@@ -56,8 +56,7 @@ public class ActivityLogin extends AppCompatActivity {
     }
 
     public void skip(View view) {
-        Intent intent = new Intent(this, Destinasi.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
 }

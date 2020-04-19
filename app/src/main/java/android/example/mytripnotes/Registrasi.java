@@ -3,6 +3,7 @@ package android.example.mytripnotes;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,7 +21,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.database.core.Tag;
 
 public class Registrasi extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -40,7 +40,7 @@ public class Registrasi extends AppCompatActivity {
 
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 String value = dataSnapshot.getValue(String.class);
@@ -48,7 +48,7 @@ public class Registrasi extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(DatabaseError error) {
+            public void onCancelled(@NonNull DatabaseError error) {
                 // Failed to read value
                 Log.w("TAG", "Failed to read value.", error.toException());
             }
@@ -58,8 +58,8 @@ public class Registrasi extends AppCompatActivity {
 
     public void register(View v){
         String email = ((EditText) findViewById(R.id.editText2)).getText().toString();
-        String pass = ((EditText) findViewById(R.id.editText6)).getText().toString();
-        String repass = ((EditText) findViewById(R.id.editText6)).getText().toString();
+        @SuppressLint("CutPasteId") String pass = ((EditText) findViewById(R.id.editText6)).getText().toString();
+        @SuppressLint("CutPasteId") String repass = ((EditText) findViewById(R.id.editText6)).getText().toString();
         if(pass.equals(repass))
             mAuth.createUserWithEmailAndPassword(email, pass)
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

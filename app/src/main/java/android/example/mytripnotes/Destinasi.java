@@ -1,39 +1,44 @@
 package android.example.mytripnotes;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.Spinner;
+import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
-import java.util.ArrayList;
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.Calendar;
-import java.util.List;
 
 public class Destinasi extends AppCompatActivity {
-    private static final String TAG = "MainActivity";
-
+    private Button btnDestinasi;
     private TextView mDisplayDate1;
     private TextView mDisplayDate2;
+    private EditText etTujuan;
+    private RadioButton rdPekerjaan, rdLiburan;
     private DatePickerDialog.OnDateSetListener mDateSetListener1;
     private DatePickerDialog.OnDateSetListener mDateSetListener2;
-
+    private String date1 = "";
+    private String date2 = "";
+    private String tujuan = "";
+    private  String tipe = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_destinasi);
-
-        mDisplayDate1 = (TextView) findViewById(R.id.tvDatePergi);
-        mDisplayDate2 = (TextView) findViewById(R.id.tvDateKembali);
+        etTujuan = findViewById(R.id.destinasi);
+        mDisplayDate1 = findViewById(R.id.tvDatePergi);
+        mDisplayDate2 = findViewById(R.id.tvDateKembali);
+        rdPekerjaan = findViewById(R.id.radioButton);
+        rdLiburan = findViewById(R.id.radioButton2);
+        btnDestinasi = findViewById(R.id.button);
 
         mDisplayDate1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +52,7 @@ public class Destinasi extends AppCompatActivity {
                         Destinasi.this,
                         android.R.style.Theme_Holo_Light_Dialog_MinWidth,
                         mDateSetListener1,
-                        year,month,day);
+                        year, month, day);
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.show();
             }
@@ -57,12 +62,10 @@ public class Destinasi extends AppCompatActivity {
             @Override
             public void onDateSet(DatePicker datePicker, int year, int month, int day) {
                 month = month + 1;
-
-                String date = day + "/" + month + "/" + year;
-                mDisplayDate1.setText(date);
+                date1 = day + "/" + month + "/" + year;
+                mDisplayDate1.setText(date1);
             }
         };
-
 
         mDisplayDate2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,7 +79,7 @@ public class Destinasi extends AppCompatActivity {
                         Destinasi.this,
                         android.R.style.Theme_Holo_Light_Dialog_MinWidth,
                         mDateSetListener2,
-                        year,month,day);
+                        year, month, day);
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.show();
             }
@@ -86,17 +89,31 @@ public class Destinasi extends AppCompatActivity {
             @Override
             public void onDateSet(DatePicker datePicker, int year, int month, int day) {
                 month = month + 1;
-
-                String date = day + "/" + month + "/" + year;
-                mDisplayDate2.setText(date);
+                date2 = day + "/" + month + "/" + year;
+                mDisplayDate2.setText(date2);
             }
         };
 
-    }
 
+        if (rdPekerjaan.isChecked()){
+            tipe = "pekerjaan";
+        }else if(rdLiburan.isChecked()){
+            tipe = "liburan";
+        }else{
+            tipe = "sembarang";
+        }
 
-    public void tempat(View view) {
-        Intent intent = new Intent(this, TempatYangDikunjungi.class);
-        startActivity(intent);
+        btnDestinasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tujuan = etTujuan.getText().toString().trim();
+                Intent intent = new Intent(Destinasi.this, TempatYangDikunjungi.class);
+                intent.putExtra("tujuan", tujuan);
+                intent.putExtra("tgl_keberangkatan", date1);
+                intent.putExtra("tgl_kembali", date2);
+                intent.putExtra("tipe_perjalanan", tipe);
+                startActivity(intent);
+            }
+        });
     }
 }

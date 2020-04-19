@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="android.example.mytripnotes">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -10,26 +11,34 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Activitas" />
-        <activity android:name=".ActivityLogin">
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".isi_rekomendasi"></activity>
+        <activity android:name=".Activitas" />
+        <activity android:name=".ActivityLogin"/>
+        <activity android:name=".IsiRekomendasi" />
+        <activity android:name=".IsiRekomendasiSejarah" />
+        <activity android:name=".IsiRekomendasiLaut" />
+        <activity android:name=".IsiRekomendasiPegunungan" />
+        <activity android:name=".IsiRekomendasiKuliner" />
+        <activity android:name=".IsiRekomendasiBelanja" />
         <activity android:name=".KategoriRekomendasi" />
-        <activity android:name=".artikel" />
+        <activity android:name=".Artikel" />
         <activity android:name=".TempatYangDikunjungi" />
         <activity android:name=".Kustomactivitas" />
         <activity android:name=".Registrasi" />
         <activity android:name=".Destinasi" />
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
+
 </manifest>
