@@ -9,7 +9,7 @@
     tools:context=".Artikel">
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/rekomendasi"
         android:layout_width="match_parent"
         android:layout_height="263dp"
         android:layout_marginTop="50dp"
@@ -18,10 +18,10 @@
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/tipsntrick"
         android:layout_width="match_parent"
         android:layout_height="263dp"
-        android:layout_below="@+id/imageView10"
+        android:layout_below="@+id/rekomendasi"
         android:layout_marginTop="50dp"
         app:srcCompat="@drawable/tipsntrick"
         tools:ignore="ContentDescription" />

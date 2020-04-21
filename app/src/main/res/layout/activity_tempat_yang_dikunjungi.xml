@@ -8,10 +8,19 @@
     tools:context=".TempatYangDikunjungi"
     tools:layout_editor_absoluteY="81dp">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/login"
+        tools:layout_editor_absoluteY="-6dp" />
+
     <TextView
         android:id="@+id/kota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
@@ -88,13 +97,13 @@
 
     <EditText
         android:id="@+id/note"
-        android:layout_centerHorizontal="true"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_below="@id/gambar_cuaca"
+        android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:gravity="top"
         android:background="#fff"
+        android:gravity="top"
         android:importantForAutofill="no"
         android:inputType="text|textMultiLine"
         android:padding="20dp" />

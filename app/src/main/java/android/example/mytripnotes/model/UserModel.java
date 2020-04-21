@@ -1,10 +1,10 @@
-package android.example.mytripnotes;
+package android.example.mytripnotes.model;
 
 public class UserModel {
     public String id;
-    public String nama;
-    public String email;
-    public String tlp;
+    private String nama;
+    private String email;
+    private String tlp;
 
     public UserModel() {
     }

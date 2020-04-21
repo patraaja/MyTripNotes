@@ -27,7 +27,7 @@ public class Destinasi extends AppCompatActivity {
     private String date1 = "";
     private String date2 = "";
     private String tujuan = "";
-    private  String tipe = "";
+    private String tipe = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,11 +95,11 @@ public class Destinasi extends AppCompatActivity {
         };
 
 
-        if (rdPekerjaan.isChecked()){
+        if (rdPekerjaan.isChecked()) {
             tipe = "pekerjaan";
-        }else if(rdLiburan.isChecked()){
+        } else if (rdLiburan.isChecked()) {
             tipe = "liburan";
-        }else{
+        } else {
             tipe = "sembarang";
         }
 

@@ -1,12 +1,12 @@
 package android.example.mytripnotes;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class TempatYangDikunjungi extends AppCompatActivity {
 
@@ -21,19 +21,13 @@ public class TempatYangDikunjungi extends AppCompatActivity {
         tvKota = findViewById(R.id.kota);
         tvTanggal = findViewById(R.id.tanggal);
         etNote = findViewById(R.id.note);
-
-        getData();
         setData();
-    }
-
-    private void getData() {
-        note = etNote.getText().toString();
     }
 
     private void setData() {
         Intent intent = getIntent();
         tujuan = intent.getStringExtra("tujuan");
-        tanggal = intent.getStringExtra("tgl_keberangkatan")+" - "+intent.getStringExtra("tgl_kembali");
+        tanggal = intent.getStringExtra("tgl_keberangkatan") + " - " + intent.getStringExtra("tgl_kembali");
         tipe = intent.getStringExtra("tipe_perjalanan");
 
         tvKota.setText(tujuan);
@@ -41,7 +35,12 @@ public class TempatYangDikunjungi extends AppCompatActivity {
     }
 
     public void activitas(View view) {
+        note = etNote.getText().toString();
         Intent intent = new Intent(this, Activitas.class);
+        intent.putExtra("tujuan", tujuan);
+        intent.putExtra("tanggal", tanggal);
+        intent.putExtra("tipe", tipe);
+        intent.putExtra("tipe_perjalanan", tipe);
         startActivity(intent);
     }
 }

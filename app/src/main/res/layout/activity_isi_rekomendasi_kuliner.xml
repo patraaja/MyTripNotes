@@ -14,23 +14,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="1. Bandung"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1. Bandung"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/bandung"
@@ -46,8 +45,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/bandung"
                 android:textColor="@android:color/black"
@@ -55,19 +54,19 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="2. Yogyakarta"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2. Yogyakarta" />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/jogja"
@@ -83,8 +82,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/jogja"
                 android:textColor="@android:color/black"
@@ -92,20 +91,19 @@
                 app:layout_constraintTop_toBottomOf="@+id/bandung" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="3. Jakarta"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3. Jakarta"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/jakarta"
@@ -121,8 +119,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/jakarta"
                 android:textColor="@android:color/black"
@@ -130,20 +128,19 @@
                 app:layout_constraintTop_toBottomOf="@+id/jogja" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="4. Surabaya"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4. Surabaya"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/surabaya"
@@ -159,8 +156,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/surabaya"
                 android:textColor="@android:color/black"
@@ -169,20 +166,19 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="5. Bogor"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5. Bogor"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/bogor"
@@ -198,8 +194,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/bogor"
                 android:textColor="@android:color/black"
@@ -208,20 +204,19 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="6. Medan"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="6. Medan"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/medan"
@@ -237,8 +232,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/medan"
                 android:textColor="@android:color/black"

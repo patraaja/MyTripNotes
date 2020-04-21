@@ -14,23 +14,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="1. GUNUNG RINJANI , NTB"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1. GUNUNG RINJANI , NTB"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/rinjani"
@@ -46,8 +45,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/teks_rinjani"
                 android:textColor="@android:color/black"
@@ -56,20 +55,19 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="2. GUNUNG BROMO , JAWA TIMUR"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2. GUNUNG BROMO , JAWA TIMUR"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/bromo"
@@ -85,8 +83,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/teks_bromo"
                 android:textColor="@android:color/black"
@@ -94,20 +92,19 @@
                 app:layout_constraintTop_toBottomOf="@+id/rinjani" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="3. Gunung Semeru, Jawa Timur"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3. Gunung Semeru, Jawa Timur"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/semeru"
@@ -123,8 +120,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/teks_semeru"
                 android:textColor="@android:color/black"
@@ -132,20 +129,19 @@
                 app:layout_constraintTop_toBottomOf="@+id/bromo" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="4. Gunung Ijen, Jawa Timur"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4. Gunung Ijen, Jawa Timur"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/ijen"
@@ -161,8 +157,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/teks_ijen"
                 android:textColor="@android:color/black"
@@ -171,20 +167,19 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="5. Gunung Kelimutu, NTT"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5. Gunung Kelimutu, NTT"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/kelimutu"
@@ -200,8 +195,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/teks_kelimutu"
                 android:textColor="@android:color/black"
