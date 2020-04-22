@@ -1,37 +1,65 @@
 package android.example.mytripnotes;
 
 import android.content.Intent;
+import android.example.mytripnotes.fragments.ArtikelFragment;
+import android.example.mytripnotes.fragments.NotesFragment;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
+import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView tvAkun;
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authStateListener;
+    private BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tvAkun = findViewById(R.id.akun_saya);
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
         auth = FirebaseAuth.getInstance();
-
         onState();
+        getFragmentPage(new NotesFragment());
+        bottomNavigation();
     }
 
-    public void notes(View view) {
-        startActivity(new Intent(this, Destinasi.class));
+    private void bottomNavigation() {
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                Fragment fragment = null;
+
+                //Menantukan halaman Fragment yang akan tampil
+                switch (item.getItemId()) {
+                    case R.id.note:
+                        fragment = new NotesFragment();
+                        break;
+
+                    case R.id.artikel:
+                        fragment = new ArtikelFragment();
+                        break;
+                }
+                return getFragmentPage(fragment);
+            }
+        });
     }
 
-    public void artikel(View view) {
-        startActivity(new Intent(this, Artikel.class));
+    private boolean getFragmentPage(Fragment fragment) {
+        if (fragment != null) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.page_container, fragment)
+                    .commit();
+            return true;
+        }
+        return false;
     }
 
     private void onState() {
@@ -43,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
                     finish();
                 } else {
                     String getUserName = firebaseAuth.getCurrentUser().getDisplayName();
-                    tvAkun.setText(getUserName);
                 }
             }
         };

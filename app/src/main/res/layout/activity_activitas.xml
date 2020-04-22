@@ -7,6 +7,7 @@
     android:background="#FFBE00"
     tools:context=".Activitas">
 
+<<<<<<< HEAD
 
 
       <ImageView
@@ -231,4 +232,71 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ats"
         android:layout_alignParentLeft="true" />
+=======
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/login"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="431dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/recycle1"
+                app:srcCompat="@drawable/custom_1" />
+
+            <ImageView
+                android:id="@+id/rekomendasi"
+                android:layout_width="117dp"
+                android:layout_height="117dp"
+                android:layout_below="@id/imageView5"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="kustom_activitas"
+                app:srcCompat="@mipmap/custom" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rekomendasi"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:text="Add Activitas"
+                android:textColor="#000000"
+                app:fontFamily="@font/days_one" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="#0A0A0A"
+                android:shadowColor="#FFBE00"
+                android:text="Packing"
+                android:textColor="#FFBE00" />
+        </RelativeLayout>
+    </ScrollView>
+>>>>>>> 61cfc017ec9e2021bcc365a2ae2ce476f297fd8e
 </RelativeLayout>

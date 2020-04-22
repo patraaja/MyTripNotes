@@ -1,15 +1,16 @@
 package android.example.mytripnotes;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.example.mytripnotes.model.UserModel;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -24,6 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Registrasi extends AppCompatActivity {
     private FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,11 +58,11 @@ public class Registrasi extends AppCompatActivity {
     }
 
 
-    public void register(View v){
+    public void register(View v) {
         String email = ((EditText) findViewById(R.id.editText2)).getText().toString();
         @SuppressLint("CutPasteId") String pass = ((EditText) findViewById(R.id.editText6)).getText().toString();
         @SuppressLint("CutPasteId") String repass = ((EditText) findViewById(R.id.editText6)).getText().toString();
-        if(pass.equals(repass))
+        if (pass.equals(repass))
             mAuth.createUserWithEmailAndPassword(email, pass)
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         @Override
@@ -81,7 +83,7 @@ public class Registrasi extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
     }
 
-    private void saveData(String uId){
+    private void saveData(String uId) {
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("users");
@@ -98,7 +100,7 @@ public class Registrasi extends AppCompatActivity {
             public void onComplete(@NonNull Task<Void> task) {
                 Toast.makeText(Registrasi.this, "Register Berhasil",
                         Toast.LENGTH_SHORT).show();
-                Intent in =  new Intent(Registrasi.this, ActivityLogin.class);
+                Intent in = new Intent(Registrasi.this, ActivityLogin.class);
                 startActivity(in);
             }
         });

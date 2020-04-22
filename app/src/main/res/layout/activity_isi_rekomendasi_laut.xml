@@ -14,23 +14,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="1. Taman Wisata Laut Karimunjawa"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1. Taman Wisata Laut Karimunjawa"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/karimun"
@@ -46,8 +45,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/karimun"
                 android:textColor="@android:color/black"
@@ -55,20 +54,19 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="2. Taman Wisata Laut Wakatobi"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2. Taman Wisata Laut Wakatobi"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/wakatobi"
@@ -84,8 +82,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/wakatobi"
                 android:textColor="@android:color/black"
@@ -93,20 +91,19 @@
                 app:layout_constraintTop_toBottomOf="@+id/karimun" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="3. Taman Wisata Laut Taka Bonerate"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3. Taman Wisata Laut Taka Bonerate"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/bonerate"
@@ -122,8 +119,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/bonerate"
                 android:textColor="@android:color/black"
@@ -131,20 +128,19 @@
                 app:layout_constraintTop_toBottomOf="@+id/wakatobi" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="4. Taman Wisata Laut Selat Pantar"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4. Taman Wisata Laut Selat Pantar"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/pantar"
@@ -160,8 +156,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/pantar"
                 android:textColor="@android:color/black"
@@ -170,20 +166,19 @@
 
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
+                android:text="5. Taman Wisata Laut Pulau Menjangan"
                 android:textColor="@android:color/black"
                 android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5. Taman Wisata Laut Pulau Menjangan"
-                />
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/menjangan"
@@ -199,8 +194,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center"
                 android:text="@string/menjangan"
                 android:textColor="@android:color/black"
