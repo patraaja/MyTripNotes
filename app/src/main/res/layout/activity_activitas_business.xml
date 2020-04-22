@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ats" />
+        app:srcCompat="@drawable/login" />
 
     <CheckBox
         android:id="@+id/checkBox"
