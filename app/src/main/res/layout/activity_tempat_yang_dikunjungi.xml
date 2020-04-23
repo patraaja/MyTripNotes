@@ -60,29 +60,20 @@
         android:layout_below="@id/tanggal"
         android:background="#000" />
 
-    <ImageView
-        android:id="@+id/gambar_cuaca"
-        android:layout_width="44dp"
-        android:layout_height="38dp"
-        android:layout_below="@+id/cuaca"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/hujan"
-        tools:ignore="ContentDescription" />
-
     <TextView
         android:id="@+id/keadaan_cuaca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/cuaca"
-        android:layout_marginTop="20dp"
-        android:layout_toEndOf="@id/gambar_cuaca"
-        android:layout_toRightOf="@id/gambar_cuaca"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
         android:text="@string/tampil_keadaan"
-        android:textSize="14sp" />
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="17sp" />
 
-    <ImageView
+    <TextView
         android:id="@+id/suhukota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,14 +83,25 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        app:srcCompat="@drawable/derajat"
+        android:text="25"
+        android:textSize="40dp"
+        android:textStyle="bold"
         tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="o" />
 
     <EditText
         android:id="@+id/note"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_below="@id/gambar_cuaca"
+        android:layout_height="250dp"
+        android:layout_below="@id/keadaan_cuaca"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
         android:background="#fff"
@@ -115,7 +117,6 @@
         android:layout_below="@+id/note"
         android:layout_centerHorizontal="true"
         android:background="@android:color/black"
-        android:onClick="activitas"
         android:padding="20dp"
         android:text="@string/aktivitas"
         android:textColor="#fff" />

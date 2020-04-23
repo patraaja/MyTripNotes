@@ -164,14 +164,12 @@ Uniknya, pengerjaan Candi Borobudur ini di kala itu tidak menggunakan bahan pere
 
     <string name="custom_aktivitas">Custom Aktivitas</string>
     <string name="submit">Submit</string>
-    <string name="nama_aktivitas">Nama Aktivitas</string>
 
     <string name="skip_halaman_ini">Skip halaman ini</string>
     <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="registrasi">registrasi</string>
-<<<<<<< HEAD
     <string name="trikphoto"><b> TIPS DAN TRIK UNTUK TRAVELLING PHOTOGRAPHY </b></string>
     <string name="teksphoto">
     Travelling rasanya kurang lengkap bila tidak membawa perlengkapan fotografi satu pun juga meski berupa perlengkapan foto yang sederhana sekalipun. Setiap traviers pastinya tidak melupakan perlengkapan yang satu ini bila melakukan perjalanan, apalagi melakukan perjalanan ke tempat-tempat yang mungkin tidak akan dikunjungi untuk kedua kali atau seterusnya.Salah satu rekan traviers yang seorang fotografer dan juga gemar melakukan travelling, yaitu Adit Sastradipraja ingin berbagi tips dan trik bagi mereka yang gemar travelling dan juga ingin mengabadikan pengalamannya dengan memadukannya dengan dunia fotografi.Kamera Yang Tepat Untuk Travelling Sebagai seorang fotografer, Adit menyarankan untuk membawa kamera yang mudah untuk digunakan (easy to use), tidak terlalu besar, tidak terlalu erat dan mampu menghasilkan ‘gambar’ yang nyaris sempurna. Kamera yang masuk dalam kategori ini kini lebih dikenal dengan sebuatn ‘mirror-less’ camera. Kamera jenis ini bentuknya sangat kecil seperti kamera saku namun memiliki kemampuan menyerupai kamera DSLR professional dengan lensa yang dapat diganti-ganti. Menurut Adit, inilah keunggulan kamera ‘tanpa kaca’ yang merupakan sebuah keunggulan yang tidak dimiliki kamera saku biasaUntuk perlengkapan kamera yang harus dibawa, Adit memberikan masukan untuk membawa lensa berjenis "all in" seperti 18-200mm atau bisa juga bawa lensa wide (16-35mm, 17-40mm, 18-55mm, dll) dan semi zoom (24-70mm, 28-70mm, dll). Lensa-lensa ini cocok untuk para traviers yang ingin menyalurkan hobi fotografi di sela-sela waktu liburannya. Perlengkapa lainnya yang sebaiknya jangan dilupakan adalah tripod. Sebaiknya pilihlah tripod yang body-nya kokoh serta tahan banting. Penggunaan tripod sangat diperlukan untuk para traviers yang ingin mengabadikan pemandangan di kala sunset atau gemerlap lampu kota di malam hari. Yang tidak kalah pentingnya adalah memory card dan flash untuk keperluan mengambil gambar di lokasi liburan anda.
@@ -185,16 +183,14 @@ Uniknya, pengerjaan Candi Borobudur ini di kala itu tidak menggunakan bahan pere
 5. Jangan membawa peralatan kamera yang tidak perlu karena hal ini akan menambah bobot barang bawaan Anda dan tidak menutup kemungkinan malah akan mengganggu liburan Anda. \n
 6. Bawalah persediaan kantong plastik di dalam tas kaamera Anda yang berguna sebagai alat perlindungan pertama untuk kamera ketika terjebak hujan. \n
 7. Gunakan format RAW/NEF untuk foto-foto obyek wisata yang menarik. Keunggulan format RAW/NEF ini adalah file size nya yang besar dan memberikan Anda keleluasaan untuk melakukan adjustment yang lebih mendetail di Photoshop. \n
-8. Jangan jadikan fotografi sebagai 'beban' liburan Anda dan keluarga. Tapi jadikan fotografi sebagai pendukung dan perekam momen-momen indah liburan Anda \n
+8. Jangan jadikan fotografi sebagai beban liburan Anda dan keluarga. Tapi jadikan fotografi sebagai pendukung dan perekam momen-momen indah liburan Anda \n
     </string>
-=======
+
     <string name="nama_activitas">Nama activitas</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="note">Note</string>
     <string name="artikel">Artikel</string>
->>>>>>> 61cfc017ec9e2021bcc365a2ae2ce476f297fd8e
 
     <string name="tekshiking">9 Tips Mendaki Gunung Yang Harus Di Ketahui Bagi Pemula</string>
     <string name="tipshiking">Akhir-akhir ini kegiatan mendaki gunung tidak hanya dilakukan oleh pencinta alam, melainkan kegiatan favorit dilakukan di kalangan muda mudi yang umumnya terdiri dari pelajar dan mahasiswa. Banyak diantara mereka yang sudah berpengalaman dalam mendaki gunung, tapi tak sedikit juga yang belum begitu akrap dengan kegiatan yang satu ini. Kebanyakan dari mereka yang masih newbie dalam urusan mendaki gunung memiliki motivasi lebih  untuk mendaki karena mungkin ingin mecoba pengalaman baru yang penuh tantangan dan tak sedikit pula mereka yang di pameri foto-foto indahnya alam gunung dari teman-teman yang baru saja mendaki gunung sehingga mereka mempunyai keinginan untuk mendaki gunung setelah melihat foto mereka. Tetapi mendaki gunung agar bisa sampai puncak itu bukan perkara yang mudah. Oke langsung saja ke tips mendaki gunung bagi pemula :</string>
@@ -335,4 +331,5 @@ Uniknya, pengerjaan Candi Borobudur ini di kala itu tidak menggunakan bahan pere
             \n
         Itulah 5 tips liburan seru bersama keluarga yang bisa kamu terapkan. Selain akan mempermudah perjalanan, tips tersebut juga akan membuat kegiatan liburan kamu semakin aman dan menyenangkan. Semakin matang persiapan, lebih maksimal pula liburan yang akan kamu jalani. Selamat berlibur bersama keluarga tercinta!
     </string>
+    <string name="tips_dan_trik">TIPS DAN TRIK</string>
 </resources>

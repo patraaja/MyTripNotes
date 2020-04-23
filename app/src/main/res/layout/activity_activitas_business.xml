@@ -28,9 +28,9 @@
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
         android:layout_marginTop="94dp"
-        android:foregroundGravity="left"
+        android:background="@drawable/working"
         android:buttonTint="#000000"
-        android:background="@drawable/working" />
+        android:foregroundGravity="left" />
 
     <TextView
         android:id="@+id/textView"
@@ -57,9 +57,10 @@
         android:layout_marginTop="94dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
-        android:foregroundGravity="center"
+        android:background="@drawable/businesscasual"
         android:buttonTint="#000000"
-        android:background="@drawable/businesscasual" />
+        android:foregroundGravity="center" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -79,13 +80,13 @@
         android:layout_height="117dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="93dp"
         android:layout_marginEnd="16dp"
-        android:foregroundGravity="right"
+        android:layout_marginRight="16dp"
         android:background="@drawable/international"
-        android:layout_alignParentRight="true"
         android:buttonTint="#000000"
-        android:layout_marginRight="16dp" />
+        android:foregroundGravity="right" />
 
     <TextView
         android:id="@+id/textView3"
@@ -113,9 +114,9 @@
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
         android:layout_marginTop="248dp"
-        android:foregroundGravity="left"
+        android:background="@drawable/businessformal"
         android:buttonTint="#000000"
-        android:background="@drawable/businessformal" />
+        android:foregroundGravity="left" />
 
     <TextView
         android:id="@+id/textView4"

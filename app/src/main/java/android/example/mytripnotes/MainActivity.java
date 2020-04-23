@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         if (fragment != null) {
             getSupportFragmentManager()
                     .beginTransaction()
+                    .addToBackStack(null)
                     .replace(R.id.page_container, fragment)
                     .commit();
             return true;
@@ -70,7 +71,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, ActivityLogin.class));
                     finish();
                 } else {
-                    String getUserName = firebaseAuth.getCurrentUser().getDisplayName();
+                    Intent intent = getIntent();
+                    String user = intent.getStringExtra("user");
                 }
             }
         };
@@ -89,4 +91,14 @@ public class MainActivity extends AppCompatActivity {
             auth.removeAuthStateListener(authStateListener);
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        if (authStateListener == null) {
+            startActivity(new Intent(this, ActivityLogin.class));
+        } else {
+            startActivity(new Intent(this, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
+        }
+    }
 }
+

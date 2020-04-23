@@ -2,6 +2,7 @@ package android.example.mytripnotes.fragments;
 
 import android.content.Intent;
 import android.example.mytripnotes.KategoriRekomendasi;
+import android.example.mytripnotes.KategoriTips;
 import android.example.mytripnotes.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -47,7 +48,7 @@ public class ArtikelFragment extends Fragment {
         ivTipsntrick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(getContext(), KategoriTips.class));
             }
         });
     }

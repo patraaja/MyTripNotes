@@ -19,6 +19,14 @@
             android:layout_height="match_parent"
             android:background="#fff">
 
+            <ImageView
+                android:id="@+id/delete_activitas"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_close_black_24dp" />
+
             <TextView
                 android:id="@+id/nama_activitas"
                 android:layout_width="wrap_content"
