@@ -32,7 +32,7 @@
         android:scrollbars="none">
 
         <RelativeLayout
-            android:id="@+id/relative1"
+            android:id="@+id/relative2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#FFBE00">
