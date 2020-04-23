@@ -49,7 +49,7 @@ public class DetailNotes extends AppCompatActivity {
         tvNotes = findViewById(R.id.notes);
         tvTipe = findViewById(R.id.tipe);
         ivShare = findViewById(R.id.share);
-        relativeLayout = findViewById(R.id.relative1);
+        relativeLayout = findViewById(R.id.relative2);
 
         setData();
         showActivitas();
@@ -82,7 +82,6 @@ public class DetailNotes extends AppCompatActivity {
         try {
             imagesFolder.mkdirs();
             File file = new File(imagesFolder, "shared_image.png");
-
             FileOutputStream stream = new FileOutputStream(file);
             bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
             stream.flush();
