@@ -67,6 +67,7 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginBottom="50dp"
                 android:background="#0A0A0A"
+                android:onClick="packing"
                 android:shadowColor="#FFBE00"
                 android:text="Packing"
                 android:textColor="#FFBE00" />

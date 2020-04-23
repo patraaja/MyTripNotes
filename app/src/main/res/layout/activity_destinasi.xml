@@ -17,7 +17,7 @@
         android:textStyle="normal|bold"
         app:fontFamily="sans-serif-black" />
 
-    <Spinner
+    <EditText
         android:id="@+id/destinasi"
         android:layout_width="295dp"
         android:layout_height="wrap_content"

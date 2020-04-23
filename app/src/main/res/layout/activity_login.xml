@@ -79,7 +79,7 @@
         android:layout_marginTop="16dp"
         android:background="#A8FFFFFF"
         android:ems="10"
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

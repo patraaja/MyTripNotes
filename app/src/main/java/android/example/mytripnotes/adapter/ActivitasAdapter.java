@@ -1,17 +1,20 @@
 package android.example.mytripnotes.adapter;
 
 import android.content.Context;
+import android.content.Intent;
+import android.example.mytripnotes.Activitas;
 import android.example.mytripnotes.R;
+import android.example.mytripnotes.dbhelper.CustomActivitasDBHelper;
 import android.example.mytripnotes.model.ActivitasModel;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 
@@ -19,7 +22,6 @@ public class ActivitasAdapter extends RecyclerView.Adapter<ActivitasAdapter.View
 
     private ArrayList<ActivitasModel> activitas;
     private Context context;
-    private FirebaseAuth auth;
 
     public ActivitasAdapter(ArrayList<ActivitasModel> activitas, Context context) {
         this.activitas = activitas;
@@ -34,9 +36,21 @@ public class ActivitasAdapter extends RecyclerView.Adapter<ActivitasAdapter.View
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ActivitasAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ActivitasAdapter.ViewHolder holder, final int position) {
         String nama_activitas = activitas.get(position).getActivitas();
         holder.activitas.setText(nama_activitas);
+        holder.btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int id = activitas.get(position).getId();
+                CustomActivitasDBHelper customActivitasDBHelper = new CustomActivitasDBHelper(context);
+                customActivitasDBHelper.delete(String.valueOf(id));
+                Toast.makeText(context, "Activitas has been deleted", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, Activitas.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -44,12 +58,14 @@ public class ActivitasAdapter extends RecyclerView.Adapter<ActivitasAdapter.View
         return activitas.size();
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
+    static class ViewHolder extends RecyclerView.ViewHolder {
         private TextView activitas;
+        private ImageView btnDelete;
 
         ViewHolder(@NonNull View itemView) {
             super(itemView);
             activitas = itemView.findViewById(R.id.nama_activitas);
+            btnDelete = itemView.findViewById(R.id.delete_activitas);
         }
     }
 }

@@ -50,4 +50,21 @@ public class Activitas extends AppCompatActivity {
         Intent intent = new Intent(this, KustomActivitas.class);
         startActivity(intent);
     }
+
+    public void packing(View view) {
+        Intent intent = getIntent();
+//        String tujuan = intent.getStringExtra("tujuan");
+//        String tanggal = intent.getStringExtra("tanggal");
+//        String tipe = intent.getStringExtra("tipe");
+//        String note = intent.getStringExtra("note");
+//        String suhu = intent.getStringExtra("suhu");
+//        String keadaan = intent.getStringExtra("keadaan");
+
+        startActivity(new Intent(Activitas.this, DetailNotes.class));
+    }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, MainActivity.class));
+    }
 }

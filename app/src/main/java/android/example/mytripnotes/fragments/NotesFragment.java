@@ -18,7 +18,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,7 +43,7 @@ public class NotesFragment extends Fragment {
     private TextView mDisplayDate1;
     private TextView mDisplayDate2;
     private Spinner spTujuan;
-    private RadioButton rdPekerjaan, rdLiburan;
+    private RadioGroup radioGroup;
     private DatePickerDialog.OnDateSetListener mDateSetListener1;
     private DatePickerDialog.OnDateSetListener mDateSetListener2;
     private String date1 = "";
@@ -70,9 +70,8 @@ public class NotesFragment extends Fragment {
         spTujuan = view.findViewById(R.id.destinasi);
         mDisplayDate1 = view.findViewById(R.id.tvDatePergi);
         mDisplayDate2 = view.findViewById(R.id.tvDateKembali);
-        rdPekerjaan = view.findViewById(R.id.radioButton);
-        rdLiburan = view.findViewById(R.id.radioButton2);
         btnDestinasi = view.findViewById(R.id.button);
+        radioGroup = view.findViewById(R.id.rgTipe);
         getDataCity();
         inputData();
     }
@@ -89,10 +88,11 @@ public class NotesFragment extends Fragment {
                 cityModels = new ArrayList<>();
                 cityModels.clear();
                 cityModels.addAll(resultCityModel.getRajaongkir().getResults());
-                final ArrayList<String> item = new ArrayList<>();
 
+                final ArrayList<String> item = new ArrayList<>();
+                item.clear();
                 for (int i = 0; i < cityModels.size(); i++) {
-                    item.add(cityModels.get(i).getType() + " " + cityModels.get(i).getCity_name());
+                    item.add(cityModels.get(i).getCity_name());
                 }
 
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_item, item);
@@ -175,17 +175,19 @@ public class NotesFragment extends Fragment {
             }
         };
 
-        if (rdPekerjaan.isChecked()) {
-            tipe = "pekerjaan";
-        } else if (rdLiburan.isChecked()) {
-            tipe = "liburan";
-        } else {
-            tipe = "sembarang";
-        }
-
         btnDestinasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                int id = radioGroup.getCheckedRadioButtonId();
+                switch (id) {
+                    case R.id.radioButton:
+                        tipe = "Lekerjaan";
+                        break;
+                    case R.id.radioButton2:
+                        tipe = "Liburan";
+                        break;
+                }
+
                 Intent intent = new Intent(getContext(), TempatYangDikunjungi.class);
                 intent.putExtra("tujuan", tujuan);
                 intent.putExtra("tgl_keberangkatan", date1);

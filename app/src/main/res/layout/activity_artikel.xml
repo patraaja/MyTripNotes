@@ -47,7 +47,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="270dp"
         android:onClick="tipsntrik"
-        android:text="@string/tipsntrick"
+        android:text="@string/tips_dan_trik"
         android:textColor="@android:color/white"
         android:textIsSelectable="false"
         android:textSize="30sp"
