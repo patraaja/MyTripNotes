@@ -130,6 +130,7 @@
         android:text="@string/skip_halaman_ini"
         android:textColor="#FFBE00"
         android:textStyle="italic"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"

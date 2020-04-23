@@ -7,36 +7,49 @@
     android:background="#FFBE00"
     tools:context=".MainActivity">
 
-    <!--    <androidx.cardview.widget.CardView-->
-    <!--        android:id="@+id/card1"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_below="@id/imageView8"-->
-    <!--        android:layout_margin="10dp"-->
-    <!--        app:cardCornerRadius="12dp">-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView8"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp">
 
-    <!--        <RelativeLayout-->
-    <!--            android:padding="20dp"-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:background="#000">-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:padding="20dp">
 
-    <!--            <TextView-->
-    <!--                android:id="@+id/nama_user"-->
-    <!--                android:layout_width="wrap_content"-->
-    <!--                android:layout_height="wrap_content"-->
-    <!--                android:textColor="#fff"-->
-    <!--                android:text="Hai, User"-->
-    <!--                android:textSize="17sp" />-->
+            <TextView
+                android:id="@+id/nama_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="10dp"
+                android:text="..."
+                android:textColor="#fff"
+                android:textSize="17sp" />
 
-    <!--            <ImageView-->
-    <!--                android:id="@+id/edit_user"-->
-    <!--                android:layout_width="wrap_content"-->
-    <!--                android:layout_height="wrap_content"-->
-    <!--                android:layout_alignParentRight="true"-->
-    <!--                android:src="@drawable/ic_edit_black_24dp" />-->
-    <!--        </RelativeLayout>-->
-    <!--    </androidx.cardview.widget.CardView>-->
+            <ImageView
+                android:id="@+id/edit_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toStartOf="@+id/logout"
+                android:layout_toLeftOf="@+id/logout"
+                android:src="@drawable/ic_edit_black_24dp" />
+
+            <ImageView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:onClick="logout"
+                android:src="@drawable/ic_power_settings_new_whiite_24dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 
     <ImageView
         android:id="@+id/imageView8"
@@ -52,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottomNavigationView"
-        android:layout_below="@+id/imageView8"
+        android:layout_below="@+id/card1"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true" />
 

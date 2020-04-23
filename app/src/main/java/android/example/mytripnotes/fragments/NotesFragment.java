@@ -181,7 +181,7 @@ public class NotesFragment extends Fragment {
                 int id = radioGroup.getCheckedRadioButtonId();
                 switch (id) {
                     case R.id.radioButton:
-                        tipe = "Lekerjaan";
+                        tipe = "Pekerjaan";
                         break;
                     case R.id.radioButton2:
                         tipe = "Liburan";

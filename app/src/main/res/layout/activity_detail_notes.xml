@@ -38,9 +38,40 @@
             android:background="#FFBE00">
 
             <TextView
+                android:id="@+id/nama_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Nama"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama_user"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Email"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/email_user"
+                android:background="#000" />
+
+            <TextView
                 android:id="@+id/kota"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/view2"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
@@ -78,6 +109,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_below="@id/tanggal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:background="#000" />
 
             <TextView
@@ -87,14 +120,28 @@
                 android:layout_below="@id/cuaca"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp"
-                android:text="@string/tampil_keadaan"
+                android:layout_marginTop="10dp"
+                android:text="Cerah"
                 android:textAllCaps="true"
-                android:textColor="#000"
-                android:textSize="17sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/suhukota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toStartOf="@+id/o"
+                android:layout_toLeftOf="@+id/o"
+                android:text="25"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/o"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/view1"
@@ -103,20 +150,6 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
-                android:text="25"
-                android:textSize="40sp"
-                android:textStyle="bold"
-                tools:ignore="ContentDescription" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/view1"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
                 android:text="o" />
 
             <TextView
@@ -141,8 +174,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:text="..."
-                android:textColor="#000"
-                android:textSize="17sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -167,15 +199,29 @@
                 android:layout_marginRight="20dp"
                 android:text="..."
                 android:textAllCaps="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tipe"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Aktivitas"
                 android:textColor="#000"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycle3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tipe"
+                android:layout_below="@id/textView3"
                 android:layout_margin="20dp" />
+
+
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

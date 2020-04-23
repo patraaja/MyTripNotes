@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -16,12 +17,28 @@ import com.google.firebase.auth.FirebaseAuth;
 public class ActivityLogin extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
+    private FirebaseAuth.AuthStateListener authStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mAuth = FirebaseAuth.getInstance();
+        onState();
+    }
+
+    private void onState() {
+        authStateListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                if (firebaseAuth.getCurrentUser() != null) {
+                    startActivity(new Intent(ActivityLogin.this, MainActivity.class));
+                    finish();
+                } else {
+
+                }
+            }
+        };
     }
 
     public void daftar(View view) {
@@ -39,7 +56,7 @@ public class ActivityLogin extends AppCompatActivity {
                         public void onSuccess(AuthResult authResult) {
                             String user_name = authResult.getUser().getUid();
                             startActivity(new Intent(ActivityLogin.this, MainActivity.class).putExtra("user", user_name));
-                            Toast.makeText(ActivityLogin.this, "Login sucess!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ActivityLogin.this, "Login success!", Toast.LENGTH_SHORT).show();
                         }
                     });
         else {
@@ -52,4 +69,19 @@ public class ActivityLogin extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mAuth.addAuthStateListener(authStateListener);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (authStateListener != null) {
+            mAuth.removeAuthStateListener(authStateListener);
+        }
+    }
+
 }

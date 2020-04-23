@@ -18,10 +18,18 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -32,10 +40,15 @@ public class DetailNotes extends AppCompatActivity {
 
     private ArrayList<ActivitasModel> activitas = new ArrayList<>();
     private RecyclerView recyclerView;
-    private TextView tvKota, tvSuhuKota, tvKeadaan, tvTanggal, tvNotes, tvTipe;
+    private TextView tvKota, tvSuhuKota, tvKeadaan, tvTanggal, tvNotes, tvTipe, tvNama, tvEmail;
     private String tujuan, tanggal, tipe, note, suhu, keadaan;
     private ImageView ivShare;
     private RelativeLayout relativeLayout;
+    private FirebaseAuth auth;
+    private FirebaseAuth.AuthStateListener authStateListener;
+    private String UID;
+    private String nama_user;
+    private String email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,10 +63,34 @@ public class DetailNotes extends AppCompatActivity {
         tvTipe = findViewById(R.id.tipe);
         ivShare = findViewById(R.id.share);
         relativeLayout = findViewById(R.id.relative2);
-
+        tvNama = findViewById(R.id.nama_user);
+        tvEmail = findViewById(R.id.email_user);
+        auth = FirebaseAuth.getInstance();
+        UID = auth.getCurrentUser().getUid();
+        onState();
         setData();
+        getDataUser();
         showActivitas();
         shareData();
+    }
+
+    private void getDataUser() {
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
+        reference.child("users").child(UID).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                nama_user = dataSnapshot.child("nama").getValue(String.class);
+                email = dataSnapshot.child("email").getValue(String.class);
+
+                tvNama.setText(nama_user);
+                tvEmail.setText(email);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+                Toast.makeText(DetailNotes.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void shareData() {
@@ -141,5 +178,31 @@ public class DetailNotes extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this, Activitas.class));
+    }
+
+    private void onState() {
+        authStateListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                if (firebaseAuth.getCurrentUser() == null) {
+                    startActivity(new Intent(DetailNotes.this, ActivityLogin.class));
+                    finish();
+                }
+            }
+        };
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        auth.addAuthStateListener(authStateListener);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (authStateListener != null) {
+            auth.removeAuthStateListener(authStateListener);
+        }
     }
 }
