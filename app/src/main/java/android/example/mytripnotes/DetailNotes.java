@@ -19,6 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -49,6 +50,7 @@ public class DetailNotes extends AppCompatActivity {
     private String UID;
     private String nama_user;
     private String email;
+    private Bitmap bitmap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,8 +70,8 @@ public class DetailNotes extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         UID = auth.getCurrentUser().getUid();
         onState();
-        setData();
         getDataUser();
+        setData();
         showActivitas();
         shareData();
     }
@@ -98,9 +100,8 @@ public class DetailNotes extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 relativeLayout.setDrawingCacheEnabled(true);
-                relativeLayout.buildDrawingCache();
-                Bitmap bitmap = relativeLayout.getDrawingCache();
-
+                relativeLayout.buildDrawingCache(true);
+                bitmap=relativeLayout.getDrawingCache(true);
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.putExtra(Intent.EXTRA_SUBJECT, "My Trip Notes");
                 intent.putExtra(Intent.EXTRA_TEXT, "Get my trip notes here!");
@@ -120,7 +121,7 @@ public class DetailNotes extends AppCompatActivity {
             imagesFolder.mkdirs();
             File file = new File(imagesFolder, "shared_image.png");
             FileOutputStream stream = new FileOutputStream(file);
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 50, stream);
             stream.flush();
             stream.close();
             uri = FileProvider.getUriForFile(this, "com.harsoft.fileprovider", file);
